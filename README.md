@@ -90,3 +90,26 @@ Find content within a file by string from the current directory (with filename a
 ```
 grep -Hinr 'STRING' .
 ```
+
+## Archiving
+Tar a given folder
+```
+tar -cvf archive.tar folder
+```
+
+Extract a given tar file into a given folder (folder will be created if not exists)
+```
+tar -xzvf archive.tar -C /folder
+```
+
+## Server load
+View the server load
+```
+htop
+```
+
+## Read files in real-time
+Show the latest entries for a given file in real-time (useful for debugging for example apache errors)
+```
+tail -f somefile
+```
