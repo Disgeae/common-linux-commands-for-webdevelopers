@@ -63,6 +63,10 @@ Human readable directory size or filesize
 du -sch file
 ```
 
+Change permissions from all items inside a folder
+```
+sudo chown -R username folder
+```
 ### SSH
 
 SSH into a remote machine
