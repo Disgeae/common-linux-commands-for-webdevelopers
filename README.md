@@ -23,6 +23,11 @@ Making a directory
 mkdir directoryname/
 ```
 
+Making a directory and its parents
+```
+mkdir -p directoryname/subdirectory/subsubdirectory
+```
+
 Moving a file/Renaming a file
 ```
 mv oldfile newfile
